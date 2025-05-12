@@ -1,0 +1,67 @@
+[
+     {
+        "id":1,
+        "name":"java",
+        "title":"Covers basics to OOP concepts with real-world examples.",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"   },
+     {
+        "id":2,
+        "name":"C programming",
+        "title":"Beginner to intermediate guide to learning C programming.",
+        "price":0,
+        "category":"Free",
+       "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    },
+     {
+        "id":3,
+        "name":"Recipe",
+        "title":"Fun, beginner-friendly cookbook with easy-to-follow recipes. ",
+        "price":200,
+        "category":"Food",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    }
+    ,
+     {
+        "id":4,
+        "name":"Story Book",
+        "title":"A collection of short stories that play with time and imagination. ",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    },
+     {
+        "id":5,
+        "name":"Music Book",
+        "title":"  A book that explores the power of music and its connection to life, loss, and shared experiences.  ",
+        "price":400,
+        "category":"Free",
+       "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    },
+    {
+        "id":6,
+        "name":"Comedy",
+        "title":" Lighthearted stories full of silly mishaps and laughter.",
+        "price":100,
+        "category":"Comedy",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    }
+    ,
+     {
+        "id":7,
+        "name":"Science Book",
+        "title":"Engaging exploration of key science topics for young readers or beginners. ",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    },
+     {
+        "id":8,
+        "name":"General knowledge",
+        "title":" Packed with fun facts, world records, and quiz-style content ",
+        "price":400,
+        "category":"GK",
+       "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    }
+]
