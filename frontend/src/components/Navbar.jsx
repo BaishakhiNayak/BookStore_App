@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import Login from './Login';
-
+import { useAuth } from '../context/AuthProvider';
+import Logout from './Logout';
 const Navbar = () => {
+
+const [authUser, setAuthUser] = useAuth();
+  console.log(authUser);
+  
 
   const [theme, setTheme]=useState(localStorage.getItem("theme")? localStorage.getItem("theme"):"light" );
   const element= document.documentElement;
@@ -69,7 +74,7 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow dark:bg-slate-900 dark:text-white">
         {navItems}
       </ul>
     </div>
@@ -132,20 +137,24 @@ const Navbar = () => {
   ><g strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" fill="none" stroke="currentColor"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></g></svg>
 
 </label>
-</div>
 
+   {
+  authUser ? (<Logout/> ) :
 
-  <div className="">
-    <a className=" bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
+  (<div className="dark:bg-slate-800 dark:text-white">
+    <a className=" bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer "
      onClick={() => document.getElementById("my_modal_3").showModal()}
      >
       Login
       </a>
       <Login/>
-  </div>
+  </div>)
+   }
+
+  
 </div>
 </div>
-   
+   </div>
    
    
    </>

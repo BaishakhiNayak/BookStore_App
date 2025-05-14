@@ -4,11 +4,14 @@ import './index.css'
 import App from './App.jsx'
 import React from 'react'
 import { BrowserRouter } from "react-router-dom";
+import AuthProvider from './context/AuthProvider.jsx';
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <div className='dark:bg-slate-900 dark:text-white'>
+    <AuthProvider>
+      <div className='dark:bg-slate-900 dark:text-white'>
       <App />
     </div>
+    </AuthProvider>
   </BrowserRouter>,
 )

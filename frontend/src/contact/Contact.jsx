@@ -59,6 +59,9 @@ const Contact = () => {
     </div>
 
   <button className="bg-primary text-white  rounded-md px-3 py-1 hover:bg-blue-900 duration-200 w-20">Submit</button>
+  <Link to="/">
+              <button className='mt-6 bg-primary text-white px-4 py-2 rounded-md hover:bg-blue-900 duration-300'>Back</button>
+            </Link>
 </fieldset>
       </div>
       

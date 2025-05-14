@@ -1,5 +1,7 @@
 import React from 'react'
-import banner from '../assets/banner.jpeg';
+import bookbanner from '../assets/bookBanner.png';
+
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
   return (
@@ -29,12 +31,15 @@ const Banner = () => {
                         <input type="email" placeholder="Enter your Email to login" required className='grow text-black'/>
                     </label >
                     </div>
-
-                <button className="btn mt-6 btn-primary">Primary</button>
+                <Link to="/signup">
+                <button className="btn mt-6 btn-primary">Get Start</button>
+                
+            
+          </Link>
             </div>
         
         <div className='order-1 w-full mt-20 md:w-1/2'>
-            <img src={banner} className='md:w-[550px] md:h-[460px] md:ml-12' alt="banner pic"/>
+            <img src={bookbanner} className='md:w-[550px] md:h-[460px] md:ml-12' alt="banner pic"/>
         </div>
       </div>
     </>

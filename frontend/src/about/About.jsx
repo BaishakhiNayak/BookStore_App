@@ -35,6 +35,9 @@ const About = () => {
     <p className="text-lg">
       Thanks for visiting. We hope you enjoy your learning journey! ✨
     </p>
+    <Link to="/">
+                <button className='mt-6 bg-primary text-white px-4 py-2 rounded-md hover:bg-blue-900 duration-300'>Back</button>
+              </Link>
   </div>
 </div>
 

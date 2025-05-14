@@ -7,11 +7,13 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
     <>
-    
-      <Navbar/>
+    <div className='dark:bg-slate-900 dark:text-white'>
+    <Navbar/>
       <Banner/>
       <Freebook/>
       <Footer/>
+    </div>
+      
     </>
   )
 }
